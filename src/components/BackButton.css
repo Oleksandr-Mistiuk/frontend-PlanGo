@@ -1,0 +1,36 @@
+.back-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.back-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.back-btn.nav {
+  background-color: #6c757d;
+}
+.back-btn.nav:hover {
+  background-color: #545b62;
+}
+
+.back-btn.main {
+  background-color: #343a40;
+}
+.back-btn.main:hover {
+  background-color: #1d2124;
+}
